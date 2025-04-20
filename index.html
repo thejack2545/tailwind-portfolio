@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Chockdee</title>
+  <link href="output.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100 scroll-smooth transition-colors duration-500">
+
+  <!-- Navbar -->
+<header class="bg-white dark:bg-gray-800 shadow-md fixed top-0 w-full z-10 transition duration-300">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Portfolio</h1>
+      <nav class="space-x-4 text-sm font-medium hidden md:flex">
+        <a href="#projects" class="hover:text-blue-500">Projects</a>
+        <a href="#skills" class="hover:text-blue-500">Skills</a>
+        <!-- <a href="#resume" class="hover:text-blue-500">Resume</a> -->
+        <a href="#about" class="hover:text-blue-500">About</a>
+        <a href="#contact" class="hover:text-blue-500">Contact</a>
+        <!-- ปุ่มเปลี่ยนธีม -->
+         <button id="theme-toggle" class="ml-4 text-xl">
+            <i class="fas fa-moon"></i>
+          </button>
+        
+      </nav>
+    </div>
+  </header>
+  
+  <main class="pt-24">
+    <!-- Hero Section -->
+    <section class="text-center py-20 bg-gradient-to-r from-blue-600 to-green-400 text-white">
+      <h2 class="text-5xl font-extrabold mb-4 animate-fade-in-up">สวัสดีครับ ผมโชคดี ธรรมรัง</h2>
+      <p class="text-xl animate-fade-in-up delay-100">สนใจตำแหน่งFrontend backend Developer & QA Tester & ITSupport</p>
+      <div class="mt-6 animate-fade-in-up delay-200">
+        <a href="#contact" class="bg-white text-blue-600 font-semibold px-6 py-2 rounded-full shadow hover:bg-gray-100 transition">ติดต่อผม</a>
+      </div>
+    </section>
+  
+    <!-- Projects Section -->
+<section id="projects" class="max-w-6xl mx-auto px-4 py-16">
+  <h3 class="text-3xl font-bold mb-8">My Projects</h3>
+  <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+    <div class="group relative bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-2xl transition transform hover:-translate-y-1">
+      <h4 class="text-xl font-bold mb-2">🖨️ Print Service Website</h4>
+      <p class="text-gray-700 dark:text-gray-300 text-sm mb-3">ระบบสั่งพิมพ์ออนไลน์ พร้อมระบบแจ้งเตือนผ่าน SMS และ Telegram (อยู่ระหว่างการพัฒนา ยังไม่ได้ Deploy)</p>
+      <a href="https://github.com/thejack2545/print-service-project" target="_blank" class="text-blue-600 hover:underline text-sm">View on GitHub</a>
+    </div>
+    <div class="group relative bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-2xl transition transform hover:-translate-y-1">
+      <h4 class="text-xl font-bold mb-2">📊 Crypto Tracker</h4>
+      <p class="text-gray-700 dark:text-gray-300 text-sm mb-3">เว็บไซต์ดูราคาคริปโตแบบเรียลไทม์ รองรับธีม, การค้นหา และแปลงสกุลเงิน</p>
+      <a href="https://thejack2545.github.io/Crypto-Tracker/" target="_blank" class="text-blue-600 hover:underline text-sm">View on GitHub</a>
+    </div>
+    <div class="group relative bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-2xl transition transform hover:-translate-y-1">
+      <h4 class="text-xl font-bold mb-2">🖼️ Image Resize Tool</h4>
+      <p class="text-gray-700 dark:text-gray-300 text-sm mb-3">เครื่องมือออนไลน์สำหรับปรับขนาดภาพได้หลายไฟล์ในครั้งเดียว พร้อมดาวน์โหลดแบบ ZIP สะดวก ใช้งานง่ายผ่านหน้าเว็บ</p>
+      <a href="https://thejack2545.github.io/project-resize/" target="_blank" class="text-blue-600 hover:underline text-sm">View on GitHub</a>
+    </div>
+    <div class="group relative bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-2xl transition transform hover:-translate-y-1">
+      <h4 class="text-xl font-bold mb-2">⛅ WeatherApp</h4>
+      <p class="text-gray-700 dark:text-gray-300 text-sm mb-3">ผู้ใช้สามารถดูข้อมูลสภาพอากาศแบบเรียลไทม์สำหรับเมืองต่างๆ ทั่วโลก รวมถึงพยากรณ์อากาศล่วงหน้า 5 วัน</p>
+      <a href="https://thejack2545.github.io/weather-app/" target="_blank" class="text-blue-600 hover:underline text-sm">View on GitHub</a>
+    </div>
+    <div class="group relative bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-2xl transition transform hover:-translate-y-1">
+      <h4 class="text-xl font-bold mb-2">🍽️ Meal Recipe Finder</h4>
+      <p class="text-gray-700 dark:text-gray-300 text-sm mb-3">Meal Recipe Finder คือเว็บแอปพลิเคชันที่ช่วยให้ผู้ใช้สามารถค้นหาสูตรอาหารจากชื่อเมนูหรือวัตถุดิบที่มี</p>
+      <a href="https://thejack2545.github.io/Meal-Recipe-Finder/" target="_blank" class="text-blue-600 hover:underline text-sm">View on GitHub</a>
+    </div>
+  </div>
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-white dark:bg-gray-800 py-16 transition duration-300">
+      <div class="max-w-4xl mx-auto px-4">
+        <h3 class="text-3xl font-bold mb-8">Skills/Framework</h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-6 text-center">
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">HTML</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">CSS / TailwindCSS</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">JavaScript</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Python</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Php / Laravel</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">React.js (กำลังเรียนรู้)</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Node.js</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Express.js</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Chart.js</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Mysql</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Mongodb (กำลังเรียนรู้)</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Responsive Design</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">UX/UI Design (Basic)</div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="Tools" class="bg-white dark:bg-gray-800 py-16 transition duration-300">
+      <div class="max-w-4xl mx-auto px-4">
+        <h3 class="text-3xl font-bold mb-8">Tools</h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-6 text-center">
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Vscode</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Git / Github</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Postman</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">SQLite</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Xampp</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Figma</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Photoshop</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AiTools Section -->
+    <div id="AI-Tools" class="bg-white dark:bg-gray-800 py-16 transition duration-300">
+      <div class="max-w-4xl mx-auto px-4">
+        <h3 class="text-3xl font-bold mb-8">AI Tools</h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-6 text-center">
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Chatgpt</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Claude.ai</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Gemini</div>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow">Perplexity</div>
+        </div>
+        <p class="px-3 py-16">ผมใช้ AI เป็นผู้ช่วยในกระบวนการพัฒนาเว็บไซต์ ตั้งแต่การเขียนโค้ด แก้บั๊ก ศึกษาแนวทางติดตั้งเทคโนโลยีใหม่ ๆ 
+          ไปจนถึงการตรวจสอบและปรับปรุงงานที่ทำ เพื่อให้เรียนรู้และทำงานได้เร็วขึ้น พร้อมเสริมความเข้าใจที่ถูกต้องควบคู่กัน</p>
+      </div>
+      </div>
+    </section>
+
+    <!-- About Section - moved to bottom -->
+<section id="about" class="max-w-4xl mx-auto px-4 py-16">
+  <h3 class="text-3xl font-bold mb-6">About Me</h3>
+  <p class="leading-relaxed text-lg">นักพัฒนาที่มีความสนใจในการสร้างเว็บไซต์และแอปพลิเคชันที่ใช้งานง่าย พร้อมทั้งมีความรู้ในการออกแบบ UI/UX และการใช้เทคโนโลยีต่าง ๆ 
+    เพื่อพัฒนาโครงการที่มีประสิทธิภาพและตอบโจทย์ผู้ใช้งาน ตั้งใจเรียนรู้และพัฒนาทักษะใหม่ ๆ เพื่อสร้างผลงานที่มีคุณค่าและผลกระทบที่ดีต่อองค์กร</p>
+  <p class="leading-relaxed text-lg">
+    <br><strong>ประสบการณ์ฝึกงาน:</strong><br>
+    <strong>ตำแหน่ง:</strong> Digital Content Developer (Frontend)<br>
+    <strong>บริษัท:</strong> บริษัท ไอท้อปพลัส จำกัด<br>
+    <strong>ระยะเวลา:</strong> กรกฎาคม 2024 - ตุลาคม 2024<br>
+  
+    - ดูแลและพัฒนาเว็บไซต์ลูกค้าโดยการเขียนโปรแกรมให้ตรงตามการออกแบบของกราฟิกดีไซน์<br>
+    - ปรับแต่งเว็บไซต์ให้รองรับการใช้งานบนอุปกรณ์ต่าง ๆ ด้วยการทำ Responsive Layout<br>
+    - ตรวจสอบการแสดงผลของเว็บไซต์ในอุปกรณ์และเบราว์เซอร์ต่าง ๆ<br>
+    - แปลภาษาและปรับเนื้อหาของเว็บไซต์ตามความต้องการของลูกค้า<br>
+    - ใช้โปรแกรมสำเร็จรูปของบริษัทในการพัฒนาและจัดการเนื้อหาบนเว็บไซต์
+  </p>
+  <p class="leading-relaxed text-lg">
+    <br><strong>โปรเจคจบ</strong><br>
+    <strong>ระบบสั่งพิมพ์เอกสารออนไลน์ (Print Service System)</strong><br>
+    - พัฒนาเว็บไซต์ระบบสั่งพิมพ์เอกสารออนไลน์ที่ช่วยให้ลูกค้าสามารถอัปโหลดไฟล์และกรอกรายละเอียดการสั่งพิมพ์ได้อย่างง่ายดาย<br>
+    - สร้างฟังก์ชันการเลือกตัวเลือกการพิมพ์ เช่น ขนาดกระดาษ, สี/ขาวดำ, การเย็บเล่ม และการกรอกเบอร์โทรศัพท์<br>
+    - พัฒนาแดชบอร์ดสำหรับผู้ดูแลระบบ โดยใช้ <strong>Chart.js</strong> ในการแสดงกราฟสถิติการสั่งพิมพ์<br>
+    - เชื่อมต่อกับฐานข้อมูล <strong>MySQL</strong> เพื่อจัดเก็บคำสั่งพิมพ์ทั้งหมด<br>
+    - ใช้ <strong>Tailwind CSS</strong> ในการออกแบบหน้าแดชบอร์ดให้มีความสวยงามและใช้งานง่าย<br>
+    - ฟีเจอร์ Telegram และ SMS สำหรับการแจ้งเตือนสถานะคำสั่งพิมพ์กำลังพัฒนาอยู่<br>
+    - เทคโนโลยีที่ใช้: <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>MySQL</strong>, <strong>Chart.js</strong>, <strong>Tailwind CSS</strong>, <strong>HTML/CSS/JavaScript</strong>
+  </p>
+  <!-- Education Section -->
+
+<p class="leading-relaxed text-lg">
+  <br><strong>การศึกษา</strong><br>
+  <strong>ปริญญาตรี</strong> สาขาคอมพิวเตอร์ธุรกิจ<br>
+  มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี<br>
+  <strong>ระยะเวลา:</strong> 2021 – 2025
+</p>
+
+</section>
+
+    </main>
+  
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-50 dark:bg-gray-900 py-16 transition duration-300">
+      <div class="max-w-xl mx-auto px-4 text-center">
+        <h3 class="text-3xl font-bold mb-4">Contact</h3>
+        <p class="mb-6">สามารถติดต่อผมได้ทางช่องทางด้านล่าง</p>
+        <div class="mt-6 flex justify-center space-x-6 text-lg">
+          <a href="https://github.com/thejack2545" target="_blank" class="hover:text-blue-600">
+            <i class="fab fa-github"></i> GitHub:thejack2545
+          </a>
+          <a href="https://line.me/ti/p/BmG2FsVG00" target="_blank" class="hover:text-green-500">
+            <i class="fab fa-line"></i> <br/>Line ID:jack_jake
+          </a>
+          <a href="https://www.facebook.com/thejack.thammarang/" target="_blank" class="hover:text-blue-700">
+            <i class="fab fa-facebook"></i> <br/>Facebook:Thejack Thammarang
+          </a>
+          <a href="mailto:chockdeegg@gmail.com" target="_blank" class="hover:text-green-500">
+            <i class="fas fa-envelope"></i> <br/>Email:chockdeegg@gmail.com
+          </a>
+          <a href="tel:+0965921368" target="_blank" class="hover:text-blue-700">
+            <i class="fas fa-phone-alt"></i> <br/>Phone:0965921368
+          </a>
+        </div>
+      </div>
+    </section>
+  <footer class="text-center text-sm py-6 text-gray-500 dark:text-gray-400">
+    © 2025 Your Name. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+  <style>
+    .animate-fade-in-up {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease forwards;
+    }
+    .delay-100 { animation-delay: 0.1s; }
+    .delay-200 { animation-delay: 0.2s; }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</body>
+</html>
